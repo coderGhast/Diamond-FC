@@ -35,8 +35,8 @@ def streams():
 def join():
     return render_template("streams.html")
 
-@app.route('/fflogs')
-def fflogs():
+@app.route('/logs')
+def logs():
     return render_template("scumbagdps.html")
 
 if __name__ == "__main__":
